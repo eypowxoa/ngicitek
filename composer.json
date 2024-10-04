@@ -1,0 +1,19 @@
+{
+    "name": "eypowxoa/ngicitek",
+    "description": "My coding experiments.",
+    "type": "library",
+    "license": "WTFPL",
+    "autoload": {
+        "psr-4": {
+            "Eypowxoa\\Ngicitek\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dima Kudryavcev",
+            "email": "dimakudryavcev@picom.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
