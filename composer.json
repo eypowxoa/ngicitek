@@ -1,28 +1,32 @@
 {
     "name": "eypowxoa/ngicitek",
     "description": "My coding experiments.",
-    "type": "library",
     "license": "WTFPL",
-    "autoload": {
-        "psr-4": {
-            "Eypowxoa\\Ngicitek\\": "src/"
-        }
-    },
+    "type": "library",
     "authors": [
         {
             "name": "Dima Kudryavcev",
             "email": "dimakudryavcev@picom.ru"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^8.2"
     },
-    "config": {
-        "sort-packages": true
-    },
     "require-dev": {
+        "ergebnis/composer-normalize": "dev-main",
         "friendsofphp/php-cs-fixer": "dev-master",
         "roave/security-advisories": "dev-latest"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Eypowxoa\\Ngicitek\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        },
+        "sort-packages": true
     }
 }
