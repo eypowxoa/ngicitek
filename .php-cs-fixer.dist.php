@@ -15,6 +15,7 @@ $finder = (new Finder())
 
 return (new Config())
     ->setParallelConfig(ParallelConfigFactory::detect())
+    ->setCacheFile(__DIR__.DIRECTORY_SEPARATOR.'.cache'.DIRECTORY_SEPARATOR.'php-cs-fixer.cache')
     ->setRiskyAllowed(true)
     ->setRules([
         '@PhpCsFixer' => true,
