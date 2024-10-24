@@ -22,10 +22,7 @@
                 "action": "\\CaptainHook\\App\\Hook\\PHP\\Action\\Linting"
             },
             {
-                "action": "composer validate"
-            },
-            {
-                "action": "composer normalize --dry-run"
+                "action": "composer test"
             }
         ]
     },

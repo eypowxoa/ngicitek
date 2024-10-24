@@ -29,5 +29,12 @@
             "ergebnis/composer-normalize": true
         },
         "sort-packages": true
+    },
+    "scripts": {
+        "test": [
+            "composer validate --quiet --strict",
+            "composer normalize --dry-run --quiet",
+            "vendor/bin/php-cs-fixer check --quiet --show-progress none --stop-on-violation"
+        ]
     }
 }
