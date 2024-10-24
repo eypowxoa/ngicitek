@@ -447,12 +447,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/ergebnis/composer-normalize.git",
-                "reference": "06f642c7ffde0473c445c5350143740c0d900229"
+                "reference": "c7cb570e0080934e354af7576dfbbf8c09697a56"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/06f642c7ffde0473c445c5350143740c0d900229",
-                "reference": "06f642c7ffde0473c445c5350143740c0d900229",
+                "url": "https://api.github.com/repos/ergebnis/composer-normalize/zipball/c7cb570e0080934e354af7576dfbbf8c09697a56",
+                "reference": "c7cb570e0080934e354af7576dfbbf8c09697a56",
                 "shasum": ""
             },
             "require": {
@@ -517,7 +517,7 @@
                 "security": "https://github.com/ergebnis/composer-normalize/blob/main/.github/SECURITY.md",
                 "source": "https://github.com/ergebnis/composer-normalize"
             },
-            "time": "2024-10-22T22:25:46+00:00"
+            "time": "2024-10-23T22:16:01+00:00"
         },
         {
             "name": "ergebnis/json",
@@ -5962,6 +5962,7 @@
         "captainhook/captainhook": 20,
         "ergebnis/composer-normalize": 20,
         "friendsofphp/php-cs-fixer": 20,
+        "phpunit/phpunit": 20,
         "roave/security-advisories": 20,
         "shipmonk/composer-dependency-analyser": 20
     },
