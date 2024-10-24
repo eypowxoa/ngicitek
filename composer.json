@@ -16,7 +16,8 @@
         "captainhook/captainhook": "^6.0@dev",
         "ergebnis/composer-normalize": "dev-main",
         "friendsofphp/php-cs-fixer": "dev-master",
-        "roave/security-advisories": "dev-latest"
+        "roave/security-advisories": "dev-latest",
+        "shipmonk/composer-dependency-analyser": "dev-master"
     },
     "minimum-stability": "dev",
     "autoload": {
@@ -34,7 +35,8 @@
         "test": [
             "composer validate --quiet --strict",
             "composer normalize --dry-run --quiet",
-            "vendor/bin/php-cs-fixer check --quiet --show-progress none --stop-on-violation"
+            "vendor/bin/php-cs-fixer check --quiet --show-progress none --stop-on-violation",
+            "vendor/bin/composer-dependency-analyser"
         ]
     }
 }
