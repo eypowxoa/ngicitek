@@ -35,8 +35,8 @@
         "test": [
             "composer validate --quiet --strict",
             "composer normalize --dry-run --quiet",
-            "vendor/bin/php-cs-fixer check --quiet --show-progress none --stop-on-violation",
-            "vendor/bin/composer-dependency-analyser"
+            "vendor/bin/composer-dependency-analyser",
+            "vendor/bin/php-cs-fixer check --quiet --show-progress none --stop-on-violation"
         ]
     }
 }
