@@ -13,6 +13,7 @@
         "php": "^8.2"
     },
     "require-dev": {
+        "captainhook/captainhook": "^6.0@dev",
         "ergebnis/composer-normalize": "dev-main",
         "friendsofphp/php-cs-fixer": "dev-master",
         "roave/security-advisories": "dev-latest"
