@@ -16,6 +16,7 @@
         "captainhook/captainhook": "^6.0@dev",
         "ergebnis/composer-normalize": "dev-main",
         "friendsofphp/php-cs-fixer": "dev-master",
+        "phpunit/phpunit": "11.5.x-dev",
         "roave/security-advisories": "dev-latest",
         "shipmonk/composer-dependency-analyser": "dev-master"
     },
@@ -36,7 +37,8 @@
             "composer validate --quiet --strict",
             "composer normalize --dry-run --quiet",
             "vendor/bin/composer-dependency-analyser",
-            "vendor/bin/php-cs-fixer check --quiet --show-progress none --stop-on-violation"
+            "vendor/bin/php-cs-fixer check --quiet --show-progress none --stop-on-violation",
+            "vendor/bin/phpunit"
         ]
     }
 }
